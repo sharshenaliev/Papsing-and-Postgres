@@ -1,4 +1,4 @@
 # Papsing-and-Postgres
  
-Create Table, running postgres.py
-Insert valuev, running parsing.py
+Create Table, running postgres.py /n
+Insert values, running parsing.py
