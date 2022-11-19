@@ -13,7 +13,7 @@ try:
                                   database="template1")
     
     pk = 1
-    for page in range(1,100):
+    for page in range(1,101):
         url = 'https://www.kijiji.ca/b-apartments-condos/city-of-toronto/page-'+ str(page) +'/c37l1700273'
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
